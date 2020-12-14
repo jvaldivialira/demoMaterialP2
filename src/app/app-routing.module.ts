@@ -6,6 +6,7 @@ import { LoginComponent } from './auth/login/login.component';
 import { TraningComponent } from './traning/traning.component';
 
 
+
 const routes: Routes =  [ 
   { path: '', component: WelcomeComponent },
   { path: 'signup', component: SignupComponent },

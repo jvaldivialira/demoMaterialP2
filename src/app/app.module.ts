@@ -15,6 +15,7 @@ import { LoginComponent } from './auth/login/login.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { HeaderComponent } from './navigation/header/header.component';
 import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
+import { Authservice } from './auth.service';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,7 @@ import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.com
     FormsModule,
     FlexLayoutModule
   ],
-  providers: [],
+  providers: [ Authservice ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
